@@ -1,1 +1,71 @@
 /* Write your CSS here! */
+
+
+img{
+    width:100%;
+    max-width: 100%;
+}
+body{
+    margin: 8px;
+    display: block;
+    background-color: peachpuff;
+}
+main{
+    width:100%;
+    max-width: 1024px;
+    margin:0 auto;
+}
+
+h1{
+    text-align: center;
+    font-size: 250%;
+}
+
+h2{
+    padding: 25px;
+    text-align: center;
+}
+
+main,
+footer{
+    background-color:burlywood
+}
+
+p{
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+figure{
+    text-align: center;
+}
+
+.sidebar{
+    width:180px;
+    position:fixed;
+    z-index: index 1;
+    top: 20;
+    background-color:rgba(0, 0, 0, 0.158);
+    overflow-x:hidden;
+    padding-top: 5px;
+}
+
+.sidebar a{
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color:#2600ff;
+    display:block;
+}
+
+.sidebar a:hover{
+    color: #07002c;
+}
+
+#mainHeading {
+    color:red;
+}
+
+.funParagraph {
+    color:green;
+}
