@@ -1,5 +1,12 @@
 /* Write your CSS here! */
 
+#mainHeading {
+    color:red;
+}
+
+p.funParagraph {
+    color:green;
+}
 
 img{
     width:100%;
@@ -8,7 +15,6 @@ img{
 body{
     margin: 8px;
     display: block;
-    background-color: peachpuff;
 }
 main{
     width:100%;
@@ -62,10 +68,3 @@ figure{
     color: #07002c;
 }
 
-#mainHeading {
-    color:red;
-}
-
-.funParagraph {
-    color:green;
-}
